@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T14:37:47 IST" name="Default suite" finished-at="2023-05-24T14:37:59 IST" duration-ms="11902">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T14:37:47 IST" name="Default test" finished-at="2023-05-24T14:37:59 IST" duration-ms="11902">
+      <class name="TestNG.DependsOnMethodsConcept">
+        <test-method signature="setup()[pri:1, instance:TestNG.DependsOnMethodsConcept@2f217633]" started-at="2023-05-24T14:37:47 IST" name="setup" finished-at="2023-05-24T14:37:51 IST" duration-ms="3866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="gotoUrl()[pri:0, instance:TestNG.DependsOnMethodsConcept@2f217633]" started-at="2023-05-24T14:37:51 IST" name="gotoUrl" finished-at="2023-05-24T14:37:52 IST" depends-on-methods="TestNG.DependsOnMethodsConcept.setup" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoUrl -->
+        <test-method signature="type_UserName()[pri:0, instance:TestNG.DependsOnMethodsConcept@2f217633]" started-at="2023-05-24T14:37:52 IST" name="type_UserName" finished-at="2023-05-24T14:37:54 IST" depends-on-methods="TestNG.DependsOnMethodsConcept.gotoUrl" duration-ms="2308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type_UserName -->
+        <test-method signature="type_Password()[pri:0, instance:TestNG.DependsOnMethodsConcept@2f217633]" started-at="2023-05-24T14:37:54 IST" name="type_Password" finished-at="2023-05-24T14:37:56 IST" depends-on-methods="TestNG.DependsOnMethodsConcept.type_UserName" duration-ms="2192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- type_Password -->
+        <test-method signature="clickLogin()[pri:0, instance:TestNG.DependsOnMethodsConcept@2f217633]" started-at="2023-05-24T14:37:56 IST" name="clickLogin" finished-at="2023-05-24T14:37:58 IST" depends-on-methods="TestNG.DependsOnMethodsConcept.type_Password" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLogin -->
+        <test-method signature="tearDown()[pri:0, instance:TestNG.DependsOnMethodsConcept@2f217633]" started-at="2023-05-24T14:37:58 IST" name="tearDown" finished-at="2023-05-24T14:37:59 IST" depends-on-methods="TestNG.DependsOnMethodsConcept.clickLogin" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.DependsOnMethodsConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
