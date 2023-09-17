@@ -16,6 +16,7 @@ public class AmazonPage {
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("appliances for home");
 		
 		//driver.findElement(By.id(null))
+		ssss
 
 	}
 
